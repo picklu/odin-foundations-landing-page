@@ -45,7 +45,7 @@ button {
     color: #f9faf8;
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 5rem;
 }
 
 .hero-header {
@@ -70,6 +70,7 @@ button {
 }
 
 .hero-content {
+    margin: 4rem 0;
     width: 100%;
     flex: 1;
     display: flex;

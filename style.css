@@ -45,7 +45,7 @@ button {
     color: #f9faf8;
     display: flex;
     align-items: center;
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
 }
 
 .hero-header {
@@ -72,17 +72,21 @@ button {
 .hero-content {
     margin: 4rem 0;
     width: 100%;
+    height: 100%;
     flex: 1;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .hero-content-text {
-    flex: 2;
+    flex: 1;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 .hero-content-text h1 {
@@ -91,7 +95,6 @@ button {
 
 .hero-content-text p {
     font-size: 16px;
-    margin-top: 8px;
 }
 
 .hero-content-text button {
@@ -105,7 +108,16 @@ button {
 }
 
 .hero-content .image {
-    background-color: darkgrey;
-    height: 200px;
+    /* width: 100%; */
     flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-content .image img{
+    max-width: 100%;
+    min-width: 600px;
+    height: auto;
+    background-color: darkgrey;
 }

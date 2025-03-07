@@ -121,3 +121,10 @@ button {
     height: auto;
     background-color: darkgrey;
 }
+
+.cards {
+    margin: 2rem 10rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}

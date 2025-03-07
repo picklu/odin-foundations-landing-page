@@ -124,7 +124,45 @@ button {
 
 .cards {
     margin: 2rem 10rem;
+}
+
+.cards .title h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.card-container {
+    width: 100%;
+    margin-top: 2rem;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     gap: 2rem;
 }
+
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.card-image img {
+    border: 3px solid #1e90e1;
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content {
+    color: #6f7072;
+}
+

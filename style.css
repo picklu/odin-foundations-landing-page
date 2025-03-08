@@ -74,7 +74,6 @@ button {
     margin: 4rem 0;
     width: 100%;
     height: 100%;
-    flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -91,10 +90,11 @@ button {
 
 .hero-content-text h1 {
     font-size: 48px;
+    font-weight: 900;
 }
 
 .hero-content-text p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .hero-content-text button {
@@ -109,7 +109,7 @@ button {
 
 .hero-content .image {
     width: 100%;
-    flex: 2;
+    flex: 1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -117,7 +117,6 @@ button {
 
 .hero-content .image img{
     max-width: 100%;
-    min-width: 600px;
     height: auto;
     background-color: darkgrey;
 }

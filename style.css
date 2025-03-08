@@ -166,3 +166,25 @@ button {
     color: #6f7072;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 10rem;
+}
+
+.quote q {
+    font-style: italic;
+    font-size: 36px;
+}   
+
+.quote footer {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: right;
+}
+

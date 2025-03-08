@@ -188,3 +188,32 @@ button {
     text-align: right;
 }
 
+.cta {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #fefefe;
+    margin: 2rem 10rem;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-header h2 {
+    font-size: 24px;
+}
+.action-button {
+    font-size: 16px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.action-button button {
+    border: 3px solid #fefefe;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #fefefe;
+    font-size: inherit;
+    font-weight: 600;
+    margin-left: auto;
+    padding: 8px 32px;
+}

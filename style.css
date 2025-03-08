@@ -137,16 +137,16 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 .card {
-    width: 200px;
+    width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .card-image {
